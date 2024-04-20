@@ -9,8 +9,11 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      
+      
     },
+    "permissions": ["ACCESS_FINE_LOCATION"],
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -18,9 +21,11 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": ["ACCESS_FINE_LOCATION", "INTERNET"],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+        
       }
     },
     "web": {
